@@ -4,3 +4,13 @@ body {
   justify-content: center;
   width: 55vw;
 }
+
+:root {
+  --hair: #000;
+  --lips: #b00639;
+  --head-band: #486f92;
+  --flowers-red: #db0038;
+  --flowers-orange: #ec8800;
+  --flowers-orange-light: #f3b62a;
+  --flowers-orange-lighter: #fdd978;
+}
