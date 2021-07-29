@@ -22,6 +22,10 @@ body {
   position: relative;
 }
 
+.face {
+  z-index: 1;
+}
+
 .face-part-one {
   position: absolute;
   width: 75px;
@@ -75,4 +79,15 @@ body {
   left: 72px;
   transform: rotate(-80deg);
   width: 236px;
+}
+
+.hair-part-one {
+  position: absolute;
+  width: 500px;
+  height: 473px;
+  background-color: var(--hair);
+  border-radius: 50%;
+  top: 50px;
+  left: -212px;
+  z-index: 0;
 }
