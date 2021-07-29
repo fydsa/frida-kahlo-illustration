@@ -156,3 +156,17 @@ body {
   left: 47px;
   transform: scaleX(-1);
 }
+
+.lips {
+  position: absolute;
+  top: 550px;
+  left: -20px;
+}
+
+.lower-lip {
+  position: absolute;
+  width: 120px;
+  height: 30px;
+  border-radius: 0% 0% 50% 50%/0 0 100% 100%;
+  background-color: var(--lips);
+}
