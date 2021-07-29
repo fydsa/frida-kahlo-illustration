@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(93, 63, 133);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   margin: 0 auto !important;
@@ -93,7 +93,7 @@ body {
 .hair-part-one {
   position: absolute;
   width: 500px;
-  height: 473px;
+  height: 480px;
   background-color: var(--hair);
   border-radius: 50%;
   top: 50px;
@@ -134,5 +134,25 @@ body {
   position: absolute;
   top: 297px;
   left: 210px;
+  transform: scaleX(-1);
+}
+
+.upper-lip-hair {
+  position: absolute;
+  width: 102px;
+  height: 80px;
+  border: 3px solid;
+  border-color: var(--hair) transparent transparent transparent;
+  border-radius: 95% 0% 0% 0%/94% 0% 0% 0%;
+}
+
+.lip-hair-left {
+  top: 495px;
+  left: -72px;
+}
+
+.lip-hair-right {
+  top: 495px;
+  left: 47px;
   transform: scaleX(-1);
 }
