@@ -1,8 +1,9 @@
 body {
-  margin: 0 auto;
+  background-color: rgb(93, 63, 133);
   display: flex;
   justify-content: center;
-  width: 55vw;
+  margin: 0 auto !important;
+  width: 50vw;
 }
 
 :root {
@@ -14,4 +15,64 @@ body {
   --flowers-orange-light: #f3b62a;
   --flowers-orange-lighter: #fdd978;
   --earings: #8b7b05;
+}
+
+.frida-face {
+  top: 10vh;
+  position: relative;
+}
+
+.face-part-one {
+  position: absolute;
+  width: 75px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: white;
+  top: 150px;
+}
+
+.face-part-two {
+  position: absolute;
+  width: 185px;
+  height: 50px;
+  border-radius: 40%;
+  background-color: white;
+}
+
+.left-part {
+  top: 163px;
+  left: -129px;
+  transform: rotate(-16deg);
+}
+
+.right-part {
+  top: 163px;
+  left: 15px;
+  transform: rotate(16deg);
+}
+
+.left-part-side {
+  top: 258px;
+  left: -215px;
+  transform: rotate(100deg);
+}
+
+.right-part-side {
+  top: 258px;
+  left: 101px;
+  transform: rotate(-100deg);
+}
+
+.left-part-bottom {
+  top: 398px;
+  left: -237px;
+  transform: rotate(80deg);
+  width: 236px;
+}
+
+.right-part-bottom {
+  top: 398px;
+  left: 72px;
+  transform: rotate(-80deg);
+  width: 236px;
 }
