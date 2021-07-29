@@ -81,6 +81,15 @@ body {
   width: 236px;
 }
 
+.face-hide {
+  position: absolute;
+  width: 296px;
+  height: 339px;
+  background-color: white;
+  top: 194px;
+  left: -113px;
+}
+
 .hair-part-one {
   position: absolute;
   width: 500px;
@@ -90,4 +99,40 @@ body {
   top: 50px;
   left: -212px;
   z-index: 0;
+}
+
+.eyebrow-part-one {
+  position: absolute;
+  border: 16px solid;
+  border-color: var(--hair) transparent transparent transparent;
+  z-index: 2;
+  border-radius: 40% 80% 10% 50%/50% 94% 0% 50%;
+  width: 180px;
+  height: 50px;
+}
+
+.eyebrow-part-two {
+  position: absolute;
+  border: 9px solid;
+  border-color: var(--hair) transparent transparent transparent;
+  z-index: 2;
+  border-radius: 16% 83% 0% 0%/8% 72% 0% 0%;
+  width: 122px;
+  height: 28px;
+  top: 15.5px;
+  left: 57px;
+  transform: rotate(9deg);
+}
+
+.eyebrow-left {
+  position: absolute;
+  top: 297px;
+  left: -140px;
+}
+
+.eyebrow-right {
+  position: absolute;
+  top: 297px;
+  left: 210px;
+  transform: scaleX(-1);
 }
