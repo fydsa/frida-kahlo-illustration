@@ -139,34 +139,75 @@ body {
 
 .upper-lip-hair {
   position: absolute;
-  width: 102px;
-  height: 80px;
+  width: 100px;
+  height: 87px;
   border: 3px solid;
   border-color: var(--hair) transparent transparent transparent;
-  border-radius: 95% 0% 0% 0%/94% 0% 0% 0%;
+  border-radius: 95% 0% 0% 0%/95% 0% 0% 0%;
+  top: 496px;
 }
 
 .lip-hair-left {
-  top: 495px;
-  left: -72px;
+  left: -74px;
 }
 
 .lip-hair-right {
-  top: 495px;
-  left: 47px;
+  left: 45px;
   transform: scaleX(-1);
 }
 
 .lips {
   position: absolute;
-  top: 550px;
-  left: -20px;
+  top: 535px;
+  left: -21px;
+}
+
+.upper-lip {
+  position: absolute;
+  width: 65px;
+  height: 24px;
+  border-radius: 75% 27% 9% 0%/100% 56% 1% 0;
+  background-color: var(--lips);
+  top: -24px;
+  left: -5px;
+}
+
+.upper-lip-left {
+  transform: rotate(-10deg);
+}
+
+.upper-lip-right {
+  transform: rotate(10deg) scaleX(-1);
+  left: 60px;
+}
+
+.hide-lip {
+  position: absolute;
+  border: 3px solid;
+  border-color: transparent transparent var(--lips) transparent;
+  width: 18px;
+  height: 16px;
+  border-radius: 0% 0% 70% 30%/0 0 53% 17%;
+  transform: rotate(-19deg);
+}
+
+.hide-lip-left {
+  top: -24px;
+  left: -15px;
+}
+
+.hide-lip-right {
+  top: -24px;
+  left: 111px;
+  transform: scaleX(-1) rotate(-19deg);
 }
 
 .lower-lip {
   position: absolute;
-  width: 120px;
+  width: 140px;
   height: 30px;
   border-radius: 0% 0% 50% 50%/0 0 100% 100%;
   background-color: var(--lips);
+  left: -10px;
+  top: -3px;
 }
