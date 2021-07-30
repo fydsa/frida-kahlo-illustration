@@ -10,10 +10,10 @@ body {
   --hair: #000;
   --lips: #b00639;
   --head-band: #486f92;
-  --flowers-red: #db0038;
-  --flowers-orange: #ec8800;
-  --flowers-orange-light: #f3b62a;
-  --flowers-orange-lighter: #fdd978;
+  --flower-red: #db0038;
+  --flower-orange: #ec8800;
+  --flower-orange-light: #f3b62a;
+  --flower-orange-lighter: #fdd978;
   --earings: #8b7b05;
 }
 
@@ -274,4 +274,65 @@ body {
   z-index: -1;
   background-color: var(--head-band);
   border-radius: 50%;
+}
+
+.flower {
+  position: absolute;
+  top: 30px;
+}
+
+.flower-center {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.flower-center-one {
+  background-color: var(--flower-red);
+}
+
+.flower-one-color {
+  background-color: var(--flower-red);
+}
+
+.petal {
+  width: 50px;
+  height: 50px;
+  border-radius: 100% 100% 0% 100%/100% 100% 0 100%;
+}
+
+.petal-one {
+  margin-top: -105px;
+  margin-left: 15px;
+  transform: rotate(-135deg);
+}
+
+.petal-two {
+  margin-top: -27px;
+  margin-left: 59px;
+  transform: rotate(-75deg);
+}
+
+.petal-three {
+  margin-top: -8px;
+  margin-left: 59px;
+  transform: rotate(-25deg);
+}
+
+.petal-four {
+  margin-top: -34px;
+  margin-left: 16px;
+  transform: rotate(43deg);
+}
+
+.petal-five {
+  margin-top: -111px;
+  margin-left: -31px;
+  transform: rotate(75deg) scaleX(-1);
+}
+
+.petal-six {
+  margin-top: -7px;
+  margin-left: -26px;
+  transform: rotate(25deg) scaleX(-1);
 }
