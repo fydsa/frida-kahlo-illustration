@@ -276,7 +276,7 @@ body {
   border-radius: 50%;
 }
 
-.flower {
+.flower-one {
   position: absolute;
   top: 30px;
 }
@@ -335,4 +335,98 @@ body {
   margin-top: -7px;
   margin-left: -26px;
   transform: rotate(25deg) scaleX(-1);
+}
+
+.flower-two {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+.flower-center-two {
+  background-color: var(--flower-orange);
+}
+
+.flower-two-color {
+  background-color: var(--flower-orange);
+}
+
+.flower-three {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+}
+
+.flower-center-three {
+  background-color: var(--flower-orange-light);
+}
+
+.flower-three-color {
+  background-color: var(--flower-orange-light);
+}
+
+.flower-four {
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+
+.flower-center-four {
+  background-color: var(--flower-orange-lighter);
+}
+
+.flower-four-color {
+  background-color: var(--flower-orange-lighter);
+}
+
+.flower-five {
+  position: absolute;
+  left: -130px;
+}
+
+.flower-center-five {
+  background-color: var(--flower-red);
+}
+
+.flower-five-color {
+  background-color: var(--flower-red);
+}
+
+.flower-six {
+  position: absolute;
+  left: -150px;
+}
+
+.flower-center-six {
+  background-color: var(--flower-orange);
+}
+
+.flower-six-color {
+  background-color: var(--flower-orange);
+}
+
+.flower-seven {
+  position: absolute;
+  left: -170px;
+}
+
+.flower-center-seven {
+  background-color: var(--flower-orange-light);
+}
+
+.flower-seven-color {
+  background-color: var(--flower-orange-light);
+}
+
+.flower-eight {
+  position: absolute;
+  left: -190px;
+}
+
+.flower-center-eight {
+  background-color: var(--flower-orange-lighter);
+}
+
+.flower-eight-color {
+  background-color: var(--flower-orange-lighter);
 }
