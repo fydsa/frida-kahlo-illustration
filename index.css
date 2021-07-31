@@ -279,6 +279,9 @@ body {
 .flower-one {
   position: absolute;
   top: 30px;
+  left: 65px;
+  z-index: 3;
+  transform: rotate(-17deg);
 }
 
 .flower-center {
@@ -339,8 +342,9 @@ body {
 
 .flower-two {
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 23px;
+  left: -15px;
+  z-index: 4;
 }
 
 .flower-center-two {
@@ -354,7 +358,9 @@ body {
 .flower-three {
   position: absolute;
   top: 30px;
-  left: 150px;
+  left: 140px;
+  z-index: 2;
+  transform: rotate(-20deg);
 }
 
 .flower-center-three {
@@ -368,7 +374,8 @@ body {
 .flower-four {
   position: absolute;
   top: 30px;
-  left: -50px;
+  left: -120px;
+  z-index: 0;
 }
 
 .flower-center-four {
@@ -381,7 +388,10 @@ body {
 
 .flower-five {
   position: absolute;
-  left: -130px;
+  left: -110px;
+  z-index: 1;
+  top: -40px;
+  transform: rotate(-9deg);
 }
 
 .flower-center-five {
@@ -394,7 +404,9 @@ body {
 
 .flower-six {
   position: absolute;
-  left: -150px;
+  left: 130px;
+  z-index: 0;
+  top: -40px;
 }
 
 .flower-center-six {
@@ -407,7 +419,10 @@ body {
 
 .flower-seven {
   position: absolute;
-  left: -170px;
+  left: -20px;
+  z-index: 2;
+  top: -55px;
+  transform: rotate(-5deg);
 }
 
 .flower-center-seven {
@@ -420,7 +435,9 @@ body {
 
 .flower-eight {
   position: absolute;
-  left: -190px;
+  left: 60px;
+  z-index: 1;
+  top: -55px;
 }
 
 .flower-center-eight {
