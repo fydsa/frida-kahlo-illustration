@@ -447,3 +447,26 @@ body {
 .flower-eight-color {
   background-color: var(--flower-orange-lighter);
 }
+
+.braids {
+  position: absolute;
+  left: -200px;
+  z-index: 3;
+}
+
+.hair-part-two {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50% 50% 0 50%/50%;
+  left: -290px;
+  z-index: -3;
+  background-color: var(--hair);
+  top: -2px;
+  transform: rotate(54deg);
+}
+
+.hair-part-two-right {
+  transform: scaleX(-1) rotate(50deg);
+  left: -47px;
+}
