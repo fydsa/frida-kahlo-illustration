@@ -419,10 +419,10 @@ body {
 
 .flower-seven {
   position: absolute;
-  left: -20px;
+  left: -28px;
   z-index: 2;
-  top: -55px;
-  transform: rotate(-5deg);
+  top: -57px;
+  transform: rotate(-4deg);
 }
 
 .flower-center-seven {
