@@ -448,12 +448,6 @@ body {
   background-color: var(--flower-orange-lighter);
 }
 
-.braids {
-  position: absolute;
-  left: -200px;
-  z-index: 3;
-}
-
 .hair-part-two {
   position: absolute;
   width: 420px;
@@ -469,4 +463,30 @@ body {
 .hair-part-two-right {
   transform: scaleX(-1) rotate(50deg);
   left: -42px;
+}
+
+.braids {
+  position: absolute;
+  left: -200px;
+  z-index: -3;
+}
+
+.braid {
+  background-color: var(--hair);
+  position: absolute;
+}
+
+.braid-one {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: -7px;
+}
+
+.braid-two {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: -18px;
+  left: -70px;
 }
