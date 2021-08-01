@@ -527,3 +527,13 @@ body {
   z-index: -3;
   transform: scaleX(-1);
 }
+
+.hide-point {
+  position: absolute;
+  top: 181px;
+  left: 16px;
+  z-index: 2;
+  background-color: white;
+  width: 53px;
+  height: 31px;
+}
