@@ -474,19 +474,56 @@ body {
 .braid {
   background-color: var(--hair);
   position: absolute;
+  border-radius: 50%;
 }
 
 .braid-one {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
-  top: -7px;
+  top: -15px;
 }
 
 .braid-two {
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   top: -18px;
   left: -70px;
+}
+
+.braid-three {
+  width: 130px;
+  height: 140px;
+  top: 34px;
+  left: -133px;
+}
+
+.braid-four {
+  width: 130px;
+  height: 140px;
+  top: 122px;
+  left: -135px;
+}
+
+.braid-five {
+  width: 130px;
+  height: 150px;
+  top: 182px;
+  left: -115px;
+  transform: rotate(10deg);
+}
+
+.braid-six {
+  width: 130px;
+  height: 130px;
+  top: 275px;
+  left: -65px;
+  transform: rotate(30deg);
+  border-radius: 50% 50% 0 50%/50%;
+}
+
+.braids-right {
+  position: absolute;
+  left: 280px;
+  z-index: -3;
+  transform: scaleX(-1);
 }
