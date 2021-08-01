@@ -462,7 +462,7 @@ body {
 
 .hair-part-two-right {
   transform: scaleX(-1) rotate(50deg);
-  left: -42px;
+  left: -45px;
 }
 
 .braids {
@@ -525,7 +525,7 @@ body {
 
 .braids-right {
   position: absolute;
-  left: 252px;
+  left: 249px;
   z-index: -3;
   transform: scaleX(-1) rotate(5deg);
 }
